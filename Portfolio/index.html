@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Course Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+        }
+        header {
+            background-color: #460000;
+            color: white;
+            padding: 1em 0;
+            text-align: center;
+        }
+        nav {
+            background-color: #940404;
+            padding: 1em;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 1em;
+            text-decoration: none;
+        }
+        section {
+            padding: 2em;
+        }
+        .content {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+        .content div {
+            background-color: white;
+            padding: 1em;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            width: 300px;
+        }
+        img {
+            width: 100%;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Digital Course Portfolio</h1>
+    </header>
+    <nav>
+        <a href="#about">About Me</a>
+        <a href="#assignments">Assignments</a>
+        <a href="#projects">Projects</a>
+        <a href="#certificates">Certificates</a>
+    </nav>
+    <section id="about" style="background-color: #fff; padding: 60px; display: flex; align-items: center; justify-content: space-around; flex-wrap: wrap;">
+        <div style="max-width: 500px; text-align: left;">
+            <h1 style="font-size: 48px; margin: 0;">Hi,</h1>
+            <h1 style="font-size: 48px; margin: 0;">I'm <span style="color: #ff5454;">Anne Klein F. Amoroso</span></h1>
+            <h2 style="font-size: 32px; font-weight: normal; color: #1d1d1d;">BSIS Student</h2>
+            <p style="font-size: 18px; line-height: 1.6; margin-top: 20px;">
+                I'm a passionate and driven 2nd-year Bachelor of Science in Information Systems (BSIS) student. 
+                I have a strong interest in web development, database management, and system analysis, and I enjoy exploring how technology can solve real-world problems.
+            </p>
+            <a href="#contact" style="display: inline-block; padding: 12px 24px; background-color: #5e0000; color: white; text-decoration: none; border-radius: 8px; margin-top: 20px;">Contact</a>
+        </div>
+        <div>
+            <img src="me.jpg" alt="Anne Klein F. Amoroso" style="width: 300px; height: auto; border-radius: 50%; background-color: #bb4c4c; padding: 10px; box-shadow: 0 4px 12px rgba(0,0,0,0.2);">
+        </div>
+    </section>
+    
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="content">
+            <div>
+                <h3><a href="https://klayn23.github.io/ExplorePHTours.html" target="_blank"><i>Explore PH Tours</i></a></h3>
+                <p>Creating a responsive landing page for *Explore PH Tours* with semantic HTML and visual branding.</p>
+            </div>
+            <div>
+                <h3><a href="https://klayn23.github.io/AmorosoCourseSchedule.html" target="_blank"><i>Course Schedule</i></a></h3>
+                <p>A structured HTML table showcasing my 2nd Term course schedule.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="assignments">
+        <h2>Assignments</h2>
+        <div class="content">
+            <div>
+                <img src="Environment Setup.png" alt="Assignment 1">
+                <h3>Assignment 1</h3>
+                <p>On the first Assignment I created a simple HTML file that introduces myself by displaying my
+                    name on a webpage.</p>
+            </div>
+            <div>
+                <img src="HTMLAsyncTask.png" alt="Assignment 2">
+                <h3>Assignment 2</h3>
+                <p>In the task HTMLAsynchActivity I used my HTML knowledge from 
+                    CodeChum to create a one-page responsive landing page for 
+                    a travel and tours business called Explore PH Tours.</p>
+            </div>
+            <div>
+                <img src="HTMLTaskPart2.png" alt="Assignment 3">
+                <h3>Assignment 3</h3>
+                <p>In the HTML Async Activity, we were tasked with creating a single HTML page to display my 2nd Term course schedule using HTML tables.
+                  I designed and customized the table layout.</p>
+            </div>
+            <div>
+                <img src="css activity.png" alt="Assignment 4">
+                <h3>Assignment 4</h3>
+                <p>In the CSS3 activity, we were tasked with designing and replicating the exact design presented on the projector.</p>
+            </div>
+        </div>
+    </section>
+ 
+    <section id="certificates">
+        <h2>Certificates</h2>
+        <div class="content">
+            <div>
+                <img src="java.png" alt="Java Codeing Workshop Certification">
+                <h3>Certificate 1</h3>
+                <p>Description of Certificate 1.</p>
+            </div>
+            <div>
+                <img src="coursera.png" alt="Coursera Certification">
+                <h3>Certificate 2</h3>
+                <p>Description of Certificate 2.</p>
+            </div>
+            <div>
+                <img src="codechum.png" alt="codechum Certification">
+                <h3>Certificate 3</h3>
+                <p>Description of Certificate 3.</p>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
